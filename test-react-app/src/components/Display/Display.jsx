@@ -6,9 +6,9 @@ const Display = ({ball,strike}) => {
     <div className='display'>
       <h1 style={{textDecoration: 'underline'}}>The At-Bat</h1>
       <h1>BALL</h1>
-      <div className='data'>{ball}</div>
+      <div className='data' data-testid='ballCount'>{ball}</div>
       <h1>STRIKE</h1>
-      <div className='data'>{strike}</div>
+      <div className='data' data-testid='strikeCount'>{strike}</div>
     </div>
   );
 }
