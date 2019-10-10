@@ -2,7 +2,6 @@ import React from 'react';
 import App from './App';
 import * as rtl from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import Dashboard from './components/Dashboard/Dashboard';
 
 afterEach(rtl.cleanup);//a clean up function will run after ech test runs
 
