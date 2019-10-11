@@ -19,7 +19,7 @@ describe('Unit tests for the app', () => {
 
   it('renders a text ', () => {
     const wrapper = rtl.render(<App />) 
-    const element = wrapper.getByText('hit', { exact: false }) // ignore case
+    const element = wrapper.getByText(/hit/i) // ignore case
     expect(element).toBeInTheDocument()
   })
 
